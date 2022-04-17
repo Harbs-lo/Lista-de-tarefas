@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Minha lista de taferas</h2>
+        <div class="input-group">
+            <input type="text" placeholder="Adicione uma nova tafera" class="form-control new-task">
+            <span class="input-group-btn">
+                <button class="btn btn-info add-task">
+                    Adicionar
+                </button>
+            </span>
+        </div>
+        <ul>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item"> Estudar 
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item"> Ler 
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="tarefa" class="task-item"> Ir no mercado 
+                    </label>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <hr>
+            <div class="rodape">
+                <em>Altere o título da sua lista de tarefas:</em>
+                <input type="text" class="change-title" value="Minha lista de taferas">
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./java.js"></script>
+</body>
+</html>

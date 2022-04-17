@@ -1,0 +1,60 @@
+* {
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto 0px auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #19A7B3;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 700px;
+   
+}
+
+h2, .input-group, .rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    font-size: larger;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+input, em {
+    font-size: large;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid black;
+    
+}
+
+button {
+    margin-left: 10px;
+    width: 100px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.rodape {
+    margin-top: 10px;
+}
