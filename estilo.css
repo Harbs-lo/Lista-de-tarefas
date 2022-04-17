@@ -1,5 +1,6 @@
 * {
     font-family: 'Anek Telugu', sans-serif;
+    color: black;
 }
 
 .container {
@@ -11,8 +12,6 @@
     background-color: #19A7B3;
     border: 1px solid black;
     border-radius: 5px;
-    width: 700px;
-   
 }
 
 h2, .input-group, .rodape {
@@ -25,9 +24,6 @@ h2, .input-group, .rodape {
     font-size: larger;
 }
 
-hr {
-    border: 1px solid black;
-}
 
 h2 {
     font-size: xx-large;
@@ -43,18 +39,6 @@ input {
     
 }
 
-button {
-    margin-left: 10px;
-    width: 100px;
-    height: 27px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
 ul li {
     list-style-type: none;
-}
-
-.rodape {
-    margin-top: 10px;
 }
